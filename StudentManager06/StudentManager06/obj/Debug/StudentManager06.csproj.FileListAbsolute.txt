@@ -1,0 +1,13 @@
+c:\users\awhiting18\documents\visual studio 2012\Projects\StudentManager06\StudentManager06\bin\Debug\StudentManager06.exe.config
+c:\users\awhiting18\documents\visual studio 2012\Projects\StudentManager06\StudentManager06\bin\Debug\StudentManager06.exe
+c:\users\awhiting18\documents\visual studio 2012\Projects\StudentManager06\StudentManager06\bin\Debug\StudentManager06.pdb
+c:\users\awhiting18\documents\visual studio 2012\Projects\StudentManager06\StudentManager06\obj\Debug\StudentManager06.csprojResolveAssemblyReference.cache
+c:\users\awhiting18\documents\visual studio 2012\Projects\StudentManager06\StudentManager06\obj\Debug\MainWindow.baml
+c:\users\awhiting18\documents\visual studio 2012\Projects\StudentManager06\StudentManager06\obj\Debug\MainWindow.g.cs
+c:\users\awhiting18\documents\visual studio 2012\Projects\StudentManager06\StudentManager06\obj\Debug\App.g.cs
+c:\users\awhiting18\documents\visual studio 2012\Projects\StudentManager06\StudentManager06\obj\Debug\StudentManager06_MarkupCompile.cache
+c:\users\awhiting18\documents\visual studio 2012\Projects\StudentManager06\StudentManager06\obj\Debug\StudentManager06.g.resources
+c:\users\awhiting18\documents\visual studio 2012\Projects\StudentManager06\StudentManager06\obj\Debug\StudentManager06.Properties.Resources.resources
+c:\users\awhiting18\documents\visual studio 2012\Projects\StudentManager06\StudentManager06\obj\Debug\StudentManager06.csproj.GenerateResource.Cache
+c:\users\awhiting18\documents\visual studio 2012\Projects\StudentManager06\StudentManager06\obj\Debug\StudentManager06.exe
+c:\users\awhiting18\documents\visual studio 2012\Projects\StudentManager06\StudentManager06\obj\Debug\StudentManager06.pdb

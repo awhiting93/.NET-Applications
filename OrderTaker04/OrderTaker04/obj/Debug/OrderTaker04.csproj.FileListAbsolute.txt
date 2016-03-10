@@ -1,0 +1,13 @@
+c:\users\awhiting18\documents\visual studio 2012\Projects\OrderTaker04\OrderTaker04\bin\Debug\OrderTaker04.exe.config
+c:\users\awhiting18\documents\visual studio 2012\Projects\OrderTaker04\OrderTaker04\bin\Debug\OrderTaker04.exe
+c:\users\awhiting18\documents\visual studio 2012\Projects\OrderTaker04\OrderTaker04\bin\Debug\OrderTaker04.pdb
+c:\users\awhiting18\documents\visual studio 2012\Projects\OrderTaker04\OrderTaker04\obj\Debug\OrderTaker04.csprojResolveAssemblyReference.cache
+c:\users\awhiting18\documents\visual studio 2012\Projects\OrderTaker04\OrderTaker04\obj\Debug\MainWindow.baml
+c:\users\awhiting18\documents\visual studio 2012\Projects\OrderTaker04\OrderTaker04\obj\Debug\MainWindow.g.cs
+c:\users\awhiting18\documents\visual studio 2012\Projects\OrderTaker04\OrderTaker04\obj\Debug\App.g.cs
+c:\users\awhiting18\documents\visual studio 2012\Projects\OrderTaker04\OrderTaker04\obj\Debug\OrderTaker04_MarkupCompile.cache
+c:\users\awhiting18\documents\visual studio 2012\Projects\OrderTaker04\OrderTaker04\obj\Debug\OrderTaker04.g.resources
+c:\users\awhiting18\documents\visual studio 2012\Projects\OrderTaker04\OrderTaker04\obj\Debug\OrderTaker04.Properties.Resources.resources
+c:\users\awhiting18\documents\visual studio 2012\Projects\OrderTaker04\OrderTaker04\obj\Debug\OrderTaker04.csproj.GenerateResource.Cache
+c:\users\awhiting18\documents\visual studio 2012\Projects\OrderTaker04\OrderTaker04\obj\Debug\OrderTaker04.exe
+c:\users\awhiting18\documents\visual studio 2012\Projects\OrderTaker04\OrderTaker04\obj\Debug\OrderTaker04.pdb

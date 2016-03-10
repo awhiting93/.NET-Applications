@@ -1,0 +1,6 @@
+c:\users\awhiting18\documents\visual studio 2012\Projects\GradeCalculator07\GradeCalculator07\bin\Debug\GradeCalculator07.exe.config
+c:\users\awhiting18\documents\visual studio 2012\Projects\GradeCalculator07\GradeCalculator07\bin\Debug\GradeCalculator07.exe
+c:\users\awhiting18\documents\visual studio 2012\Projects\GradeCalculator07\GradeCalculator07\bin\Debug\GradeCalculator07.pdb
+c:\users\awhiting18\documents\visual studio 2012\Projects\GradeCalculator07\GradeCalculator07\obj\Debug\GradeCalculator07.csprojResolveAssemblyReference.cache
+c:\users\awhiting18\documents\visual studio 2012\Projects\GradeCalculator07\GradeCalculator07\obj\Debug\GradeCalculator07.exe
+c:\users\awhiting18\documents\visual studio 2012\Projects\GradeCalculator07\GradeCalculator07\obj\Debug\GradeCalculator07.pdb

@@ -1,0 +1,26 @@
+﻿<Window x:Class="StudentManager06.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Student Manager" Height="419.76" Width="480.224" ResizeMode="NoResize">
+    <Grid>
+
+        <Image x:Name="pcclogo" HorizontalAlignment="Left" Height="476" VerticalAlignment="Top" Width="586" Source="PCCSeal.jpg" Margin="0,-46,-114,-41" Opacity="0.7"/>
+
+        <Button x:Name="createTab" Content="Create" HorizontalAlignment="Left" Height="50" Margin="10,10,0,0" VerticalAlignment="Top" Width="211" FontSize="22" FontWeight="Bold" Click="createTab_Click"/>
+        <Button x:Name="modifyTab" Content="Modify" HorizontalAlignment="Left" Height="50" Margin="242,10,0,0" VerticalAlignment="Top" Width="211" FontSize="22" FontWeight="Bold" Click="modifyTab_Click"/>
+        <Button x:Name="createModifyBtn" Content="Create Student" HorizontalAlignment="Left" Margin="10,0,0,10" Width="443" FontSize="22" FontWeight="Bold" Height="50" VerticalAlignment="Bottom" Click="createModifyBtn_Click" TabIndex="2147483646"/>
+        <TextBox x:Name="firstNameBox" HorizontalAlignment="Left" Margin="126,0,0,190" TextWrapping="Wrap" Width="211" FontSize="16" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Height="31" VerticalAlignment="Bottom" GotMouseCapture="txtGotMouseFocus" GotFocus="txtGotFocus" GotKeyboardFocus="txtGotFocus"/>
+        <TextBox x:Name="lastNameBox" HorizontalAlignment="Left" Margin="126,0,0,129" TextWrapping="Wrap" Width="211" FontSize="16" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Height="31" VerticalAlignment="Bottom" GotMouseCapture="txtGotMouseFocus" GotFocus="txtGotFocus" GotKeyboardFocus="txtGotFocus"/>
+        <Label x:Name="firstNameLbl" Content="First Name:" HorizontalAlignment="Left" Margin="126,0,0,221" Width="211" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontWeight="Bold" Height="25" VerticalAlignment="Bottom"/>
+        <Label x:Name="lastNameLbl" Content="Last Name:" HorizontalAlignment="Left" Margin="126,0,0,160" Width="211" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontWeight="Bold" Height="25" VerticalAlignment="Bottom"/>
+        <TextBox x:Name="ageBox" HorizontalAlignment="Left" Margin="184,0,0,73" TextWrapping="Wrap" Width="95" FontSize="16" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Height="31" VerticalAlignment="Bottom" GotMouseCapture="txtGotMouseFocus" GotFocus="txtGotFocus" GotKeyboardFocus="txtGotFocus"/>
+        <Label Content="Age:" HorizontalAlignment="Left" Margin="184,0,0,104" Width="95" FontWeight="Bold" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Height="28" VerticalAlignment="Bottom"/>
+        <ComboBox x:Name="studentList" HorizontalAlignment="Left" Margin="126,0,0,248" Width="211" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Height="31" VerticalAlignment="Bottom" Visibility="Hidden" SelectionChanged="studentList_SelectionChanged"/>
+        <Button x:Name="modifyBtn" Content="Modify Student" HorizontalAlignment="Left" Margin="10,0,0,10" Width="443" FontSize="22" FontWeight="Bold" Height="50" VerticalAlignment="Bottom" Click="modifyBtn_Click" Visibility="Hidden" UseLayoutRounding="False" TabIndex="2147483646"/>
+        <Label x:Name="selectAStudentLbl" Content="Select a Student:" HorizontalAlignment="Left" Height="24" Margin="126,81,0,0" VerticalAlignment="Top" Width="211" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Visibility="Hidden"/>
+        <Label x:Name="invalidInput1" Content="Invalid Input" HorizontalAlignment="Left" Margin="342,0,0,190" Width="120" Foreground="#FF701313" FontSize="14" FontWeight="Bold" VerticalContentAlignment="Center" Height="31" VerticalAlignment="Bottom" Visibility="Hidden"/>
+        <Label x:Name="invalidInput2" Content="Invalid Input" HorizontalAlignment="Left" Height="31" Margin="344,0,0,129" VerticalAlignment="Bottom" Width="120" Foreground="#FF701313" FontSize="14" FontWeight="Bold" RenderTransformOrigin="0.504,2.371" VerticalContentAlignment="Center" Visibility="Hidden"/>
+        <Label x:Name="invalidInput3" Content="Invalid Input" HorizontalAlignment="Left" Height="31" Margin="279,0,0,73" VerticalAlignment="Bottom" Width="169" Foreground="#FF701313" FontSize="14" FontWeight="Bold" RenderTransformOrigin="0.504,2.371" VerticalContentAlignment="Center" Visibility="Hidden"/>
+
+    </Grid>
+</Window>

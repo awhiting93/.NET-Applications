@@ -1,0 +1,32 @@
+﻿<Window x:Class="FuelCalculator03.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="363.604" Width="459.453">
+    <Grid>
+        <TextBox x:Name="GallonsPurchased" HorizontalAlignment="Left" Margin="124,56,0,0" TextWrapping="Wrap" Width="136" FontFamily="Segoe UI Light" FontSize="17" TextAlignment="Center" Height="29" VerticalAlignment="Top" KeyUp="CalculateResults"/>
+        <TextBox x:Name="TotalCost" HorizontalAlignment="Left" Margin="124,116,0,0" TextWrapping="Wrap" Width="136" FontFamily="Segoe UI Light" FontSize="17" TextAlignment="Center" Height="29" VerticalAlignment="Top" KeyUp="CalculateResults"/>
+        <TextBox x:Name="TotalMiles" HorizontalAlignment="Left" Margin="124,176,0,0" TextWrapping="Wrap" Width="136" FontFamily="Segoe UI Light" FontSize="17" TextAlignment="Center" Height="29" VerticalAlignment="Top" KeyUp="CalculateResults"/>
+        <TextBlock x:Name="GallonsPurchasedTitle" HorizontalAlignment="Left" Margin="17,47,0,0" TextWrapping="Wrap" Text="Gallons Purchased" Width="95" TextAlignment="Center" FontFamily="Segoe UI" FontSize="17" Height="48" VerticalAlignment="Top"/>
+        <TextBlock x:Name="TotalCostTitle" HorizontalAlignment="Left" Margin="17,100,0,0" TextWrapping="Wrap" Width="95" TextAlignment="Center" FontFamily="Segoe UI" FontSize="17" Height="48" VerticalAlignment="Top"><Run Text="Cost of "/><LineBreak/><Run Text="Fill-Up"/></TextBlock>
+        <TextBlock x:Name="TotalMilesTitle" HorizontalAlignment="Left" Margin="17,157,0,0" TextWrapping="Wrap" Width="95" TextAlignment="Center" FontFamily="Segoe UI" FontSize="17" Height="48" VerticalAlignment="Top"><Run Text="Total Miles"/><LineBreak/><Run Text="Driven"/></TextBlock>
+        <TextBlock x:Name="MilesPerGallonTitle" HorizontalAlignment="Left" Margin="36,229,0,0" TextWrapping="Wrap" Width="76" TextAlignment="Center" FontFamily="Segoe UI" FontSize="24" Text="MPG:" FontWeight="Bold" Height="39" VerticalAlignment="Top"/>
+        <TextBox x:Name="MilesPerGallon" HorizontalAlignment="Left" Margin="124,233,0,0" TextWrapping="Wrap" Text="" Width="136" FontFamily="Segoe UI Light" FontSize="17" TextAlignment="Center" Height="29" VerticalAlignment="Top" IsReadOnly="True"/>
+        <TextBlock x:Name="CostPerGallonTitle" HorizontalAlignment="Left" Margin="36,275,0,0" TextWrapping="Wrap" Width="76" TextAlignment="Center" FontFamily="Segoe UI" FontSize="24" Text="CPG:" FontWeight="Bold" Height="39" VerticalAlignment="Top"/>
+        <TextBox x:Name="CostPerGallon" HorizontalAlignment="Left" Margin="124,280,0,0" TextWrapping="Wrap" Text="" Width="136" FontFamily="Segoe UI Light" FontSize="17" TextAlignment="Center" Height="29" VerticalAlignment="Top" IsReadOnly="True"/>
+        <TextBox x:Name="GallonsPurchased2" HorizontalAlignment="Left" Margin="293,56,0,0" TextWrapping="Wrap" Width="136" FontFamily="Segoe UI Light" FontSize="17" TextAlignment="Center" Height="29" VerticalAlignment="Top" KeyUp="CalculateResults"/>
+        <TextBox x:Name="TotalCost2" HorizontalAlignment="Left" Margin="293,116,0,0" TextWrapping="Wrap" Width="136" FontFamily="Segoe UI Light" FontSize="17" TextAlignment="Center" Height="29" VerticalAlignment="Top" KeyUp="CalculateResults"/>
+        <TextBox x:Name="TotalMiles2" HorizontalAlignment="Left" Margin="293,176,0,0" TextWrapping="Wrap" Width="136" FontFamily="Segoe UI Light" FontSize="17" TextAlignment="Center" Height="29" VerticalAlignment="Top" KeyUp="CalculateResults"/>
+        <TextBox x:Name="MilesPerGallon2" HorizontalAlignment="Left" Margin="293,233,0,0" TextWrapping="Wrap" Text="" Width="136" FontFamily="Segoe UI Light" FontSize="17" TextAlignment="Center" Height="29" VerticalAlignment="Top" IsReadOnly="True"/>
+        <TextBox x:Name="CostPerGallon2" HorizontalAlignment="Left" Margin="293,280,0,0" TextWrapping="Wrap" Text="" Width="136" FontFamily="Segoe UI Light" FontSize="17" TextAlignment="Center" Height="29" VerticalAlignment="Top" IsReadOnly="True"/>
+        <TextBlock x:Name="CarTitle1" HorizontalAlignment="Left" Margin="136,12,0,0" TextWrapping="Wrap" Width="110" TextAlignment="Center" FontFamily="Segoe UI" FontSize="24" Text="Car 1" FontWeight="Bold" Height="39" VerticalAlignment="Top" RenderTransformOrigin="0.331,0.478"/>
+        <TextBlock x:Name="CarTitle2" HorizontalAlignment="Left" Margin="306,12,0,0" TextWrapping="Wrap" Width="110" TextAlignment="Center" FontFamily="Segoe UI" FontSize="24" FontWeight="Bold" Height="39" VerticalAlignment="Top" RenderTransformOrigin="0.331,0.478"><Run Text="Car 2"/><LineBreak/><Run/></TextBlock>
+        <Grid HorizontalAlignment="Left" Height="308" Margin="17,15,0,0" VerticalAlignment="Top" Width="255">
+            <TextBlock x:Name="GalPurchErr1" HorizontalAlignment="Left" Height="16" Margin="96,71,0,0" TextWrapping="Wrap" TextAlignment="Center" VerticalAlignment="Top" Width="159" Foreground="#FFFF2727" Text="Error: Numeric Values Only" Visibility="Hidden"/>
+            <TextBlock x:Name="CostErr1" HorizontalAlignment="Left" Height="16" Margin="96,130,0,0" TextWrapping="Wrap" TextAlignment="Center" VerticalAlignment="Top" Width="159" Foreground="#FFFF2727" Text="Error: Numeric Values Only" Visibility="Hidden"/>
+            <TextBlock x:Name="MilesDrivenErr1" HorizontalAlignment="Left" Height="16" Margin="96,191,0,0" TextWrapping="Wrap" TextAlignment="Center" VerticalAlignment="Top" Width="159" Foreground="#FFFF2727" Text="Error: Numeric Values Only" Visibility="Hidden"/>
+            <TextBlock x:Name="GalPurchErr2" HorizontalAlignment="Left" Height="16" Margin="266,72,-145,0" TextWrapping="Wrap" TextAlignment="Center" VerticalAlignment="Top" Width="159" Foreground="#FFFF2727" Text="Error: Numeric Values Only" Visibility="Hidden"/>
+            <TextBlock x:Name="CostErr2" HorizontalAlignment="Left" Height="16" Margin="266,130,-145,0" TextWrapping="Wrap" TextAlignment="Center" VerticalAlignment="Top" Width="159" Foreground="#FFFF2727" Text="Error: Numeric Values Only" Visibility="Hidden"/>
+            <TextBlock x:Name="MilesDrivenErr2" HorizontalAlignment="Left" Height="16" Margin="266,191,-145,0" TextWrapping="Wrap" TextAlignment="Center" VerticalAlignment="Top" Width="159" Foreground="#FFFF2727" Text="Error: Numeric Values Only" Visibility="Hidden"/>
+        </Grid>
+    </Grid>
+</Window>
