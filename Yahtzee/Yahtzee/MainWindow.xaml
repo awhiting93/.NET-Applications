@@ -1,0 +1,87 @@
+﻿<Window x:Class="Yahtzee.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Yahtzee" Height="522.896" Width="715.5" Icon="Dice.ico" ResizeMode="CanMinimize">
+    <Grid x:Name="mainGrid" Background="#FF5D4F4F" Margin="0,0,0,-6" HorizontalAlignment="Left" Width="714">
+        <Menu HorizontalAlignment="Left" Height="23" Margin="0,2,0,0" VerticalAlignment="Top" Width="714">
+            <MenuItem x:Name="menuFile" Header="_File" FontSize="12">
+                <MenuItem x:Name="menuNewGame" Header="_New Game" FontSize="12" Click="menuNewGameClick"/>
+                <MenuItem x:Name="menuExit" Header="E_xit" FontSize="12" Click="menuExitClick"/>
+            </MenuItem>
+            <MenuItem x:Name="menuHelp" Header="_Help" FontSize="12">
+                <MenuItem x:Name="menuRules" Header="View _Rules" Click="menuViewRulesClick" FontSize="12"/>
+                <MenuItem x:Name="menuAbout" Header="_About" Click="menuAboutClick" FontSize="12"/>
+            </MenuItem>
+            <MenuItem x:Name="menuDrGeary" Header="_Dr. Geary" FontSize="12">
+                <MenuItem x:Name="menuChuckNorris" Header="_Chuck Norris" Click="menuChuckNorrisClick" FontSize="12"/>
+            </MenuItem>
+        </Menu>
+        <Grid x:Name="actionPanelGrid" HorizontalAlignment="Left" Margin="10,30,0,25" Width="378" Background="Black">
+            <Rectangle Fill="#FFFFE401" HorizontalAlignment="Left" Stroke="Black" Width="379" Height="449" Margin="-1,0,0,-5" VerticalAlignment="Top"/>
+            <Image x:Name="banner" HorizontalAlignment="Left" Height="146" VerticalAlignment="Top" Width="377" Source="images/banner.PNG"/>
+            <Border BorderBrush="Black" BorderThickness="0,1,0,0" HorizontalAlignment="Left" Height="16" Margin="0,142,0,0" VerticalAlignment="Top" Width="378"/>
+
+            <TextBlock x:Name="txtBlkHighScore" HorizontalAlignment="Left" Margin="143,146,0,0" TextWrapping="Wrap" VerticalAlignment="Top" TextAlignment="Center" FontSize="14" FontFamily="Segoe UI" FontWeight="Bold"/>
+            <TextBlock x:Name="txtBlkRollsLeft" HorizontalAlignment="Left" Margin="10,163,0,0" TextWrapping="Wrap" Text="Rolls Left:" VerticalAlignment="Top" Height="26" Width="138" FontSize="18" FontFamily="Segoe UI" FontWeight="Bold"/>
+            <TextBlock x:Name="txtBlkGameOver" HorizontalAlignment="Left" Margin="69,153,0,0" TextWrapping="Wrap" Text="Game Over!" VerticalAlignment="Top" Height="50" Width="252" FontSize="42" FontFamily="Segoe UI" FontWeight="Bold" Visibility="Hidden"/>
+            <TextBlock x:Name="txtBlkPickAScore" HorizontalAlignment="Left" Margin="10,209,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="26" Width="214" FontSize="18" FontFamily="Segoe UI" FontWeight="Bold" Text="Please pick a score!" Visibility="Hidden"/>
+            <TextBlock x:Name="txtBlkTotalScore" HorizontalAlignment="Left" Margin="108,206,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="26" Width="144" FontSize="18" FontFamily="Segoe UI" FontWeight="Bold" TextAlignment="Right"/>
+
+            <Image x:Name="imgDie1" HorizontalAlignment="Left" Height="72" Margin="10,242,0,0" VerticalAlignment="Top" Width="68" Source="images/1.png" Panel.ZIndex="1" MouseEnter="imgDie1MouseEnter" Tag="0" MouseLeave="imgDie1MouseLeave" MouseUp="imgDieMouseUp"/>
+            <Image x:Name="imgDie2" HorizontalAlignment="Left" Height="72" Margin="84,242,0,0" VerticalAlignment="Top" Width="67" Source="images/1.png" Panel.ZIndex="1" MouseEnter="imgDie2MouseEnter" MouseLeave="imgDie2MouseLeave" MouseUp="imgDieMouseUp" Tag="1"/>
+            <Image x:Name="imgDie3" HorizontalAlignment="Left" Height="72" Margin="157,242,0,0" VerticalAlignment="Top" Width="68" Source="images/1.png" Panel.ZIndex="1" MouseEnter="imgDie3MouseEnter" MouseLeave="imgDie3MouseLeave" MouseUp="imgDieMouseUp" Tag="2"/>
+            <Image x:Name="imgDie4" HorizontalAlignment="Left" Height="72" Margin="229,242,0,0" VerticalAlignment="Top" Width="68" Source="images/1.png" Panel.ZIndex="1" MouseEnter="imgDie4MouseEnter" MouseLeave="imgDie4MouseLeave" MouseUp="imgDieMouseUp" Tag="3"/>
+            <Image x:Name="imgDie5" HorizontalAlignment="Left" Height="72" Margin="303,242,0,0" VerticalAlignment="Top" Width="67" Source="images/1.png" Panel.ZIndex="1" MouseEnter="imgDie5MouseEnter" MouseLeave="imgDie5MouseLeave" MouseUp="imgDieMouseUp" Tag="4"/>
+            <Border x:Name="borderDie1" BorderBrush="#FFEC3434" BorderThickness="3" HorizontalAlignment="Left" Height="72" Margin="7,240,0,0" VerticalAlignment="Top" Width="74" Visibility="Hidden"/>
+            <Border x:Name="borderDie2" BorderBrush="#FFEC3434" BorderThickness="3" HorizontalAlignment="Left" Height="72" Margin="81,240,0,0" VerticalAlignment="Top" Width="73" Visibility="Hidden"/>
+            <Border x:Name="borderDie3" BorderBrush="#FFEC3434" BorderThickness="3" HorizontalAlignment="Left" Height="72" Margin="154,240,0,0" VerticalAlignment="Top" Width="73" Visibility="Hidden"/>
+            <Border x:Name="borderDie4" BorderBrush="#FFEC3434" BorderThickness="3" HorizontalAlignment="Left" Height="72" Margin="227,240,0,0" VerticalAlignment="Top" Width="73" Visibility="Hidden"/>
+            <Border x:Name="borderDie5" BorderBrush="#FFEC3434" BorderThickness="3" HorizontalAlignment="Left" Height="72" Margin="300,240,0,0" VerticalAlignment="Top" Width="73" Visibility="Hidden"/>
+
+            <Button x:Name="btnRoll" Content="Roll" HorizontalAlignment="Left" Margin="10,319,0,0" Width="214" UseLayoutRounding="False" Background="#FFEC3434" FontFamily="Segoe UI" Click="btnRollClick" FontSize="42" FontWeight="Bold" Height="123" VerticalAlignment="Top"/>
+            <Button x:Name="btnNextTurn" Content="Score" HorizontalAlignment="Left" Margin="229,319,0,0" Width="139" FontSize="16" FontFamily="Segoe UI" FontWeight="Bold" Click="btnNextTurnClick" IsEnabled="False" Height="123" VerticalAlignment="Top"/>
+        </Grid>
+        <Rectangle Fill="#FFF4F4F5" Margin="398,30,16,0" Stroke="Black" Height="449" VerticalAlignment="Top"/>
+        <Image x:Name="scorecardTable" HorizontalAlignment="Left" Margin="400,32,0,0" Width="268" Source="images/scorecard4.PNG" Height="445" VerticalAlignment="Top"/>
+
+        <TextBlock x:Name="txtBlkAces" HorizontalAlignment="Left" Height="16" Margin="532,59,0,0" TextWrapping="Wrap" Text="----" VerticalAlignment="Top" Width="130" TextAlignment="Center" Foreground="Gray" FontSize="12" FontWeight="Bold"/>
+        <TextBlock x:Name="txtBlkTwos" HorizontalAlignment="Left" Height="16" Margin="532,80,0,0" TextWrapping="Wrap" Text="----" VerticalAlignment="Top" Width="130" TextAlignment="Center" Foreground="Gray" FontSize="12" FontWeight="Bold"/>
+        <TextBlock x:Name="txtBlkThrees" HorizontalAlignment="Left" Height="16" Margin="532,101,0,0" TextWrapping="Wrap" Text="----" VerticalAlignment="Top" Width="130" TextAlignment="Center" Foreground="Gray" FontSize="12" FontWeight="Bold"/>
+        <TextBlock x:Name="txtBlkFours" HorizontalAlignment="Left" Height="16" Margin="533,122,0,0" TextWrapping="Wrap" Text="----" VerticalAlignment="Top" Width="129" TextAlignment="Center" Foreground="Gray" FontSize="12" FontWeight="Bold"/>
+        <TextBlock x:Name="txtBlkFives" HorizontalAlignment="Left" Height="20" Margin="533,143,0,0" TextWrapping="Wrap" Text="----" VerticalAlignment="Top" Width="129" TextAlignment="Center" Foreground="Gray" FontSize="12" FontWeight="Bold"/>
+        <TextBlock x:Name="txtBlkSixes" HorizontalAlignment="Left" Height="20" Margin="533,162,0,0" TextWrapping="Wrap" Text="----" VerticalAlignment="Top" Width="129" TextAlignment="Center" Foreground="Gray" FontSize="12" FontWeight="Bold"/>
+        <TextBlock x:Name="txtBlkBonusUpper" HorizontalAlignment="Left" Height="19" Margin="533,182,0,0" TextWrapping="Wrap" Text="----" VerticalAlignment="Top" Width="129" TextAlignment="Center" Foreground="Black" FontSize="12" FontWeight="Bold"/>
+        <TextBlock x:Name="txtBlkTotalUpper1" HorizontalAlignment="Left" Height="19" Margin="534,206,0,0" TextWrapping="Wrap" Text="----" VerticalAlignment="Top" Width="129" TextAlignment="Center" Foreground="Black" FontSize="12" FontWeight="Bold"/>
+        <TextBlock x:Name="txtBlkThreeOfKind" HorizontalAlignment="Left" Height="19" Margin="534,247,0,0" TextWrapping="Wrap" Text="----" VerticalAlignment="Top" Width="129" TextAlignment="Center" Foreground="Gray" FontSize="12" FontWeight="Bold"/>
+        <TextBlock x:Name="txtBlkFourOfKind" HorizontalAlignment="Left" Height="16" Margin="534,268,0,0" TextWrapping="Wrap" Text="----" VerticalAlignment="Top" Width="129" TextAlignment="Center" Foreground="Gray" FontSize="12" FontWeight="Bold"/>
+        <TextBlock x:Name="txtBlkFullHouse" HorizontalAlignment="Left" Height="16" Margin="534,289,0,0" TextWrapping="Wrap" Text="----" VerticalAlignment="Top" Width="129" TextAlignment="Center" Foreground="Gray" FontSize="12" FontWeight="Bold"/>
+        <TextBlock x:Name="txtBlkSmallStraight" HorizontalAlignment="Left" Height="16" Margin="534,309,0,0" TextWrapping="Wrap" Text="----" VerticalAlignment="Top" Width="129" TextAlignment="Center" Foreground="Gray" FontSize="12" FontWeight="Bold"/>
+        <TextBlock x:Name="txtBlkLargeStraight" HorizontalAlignment="Left" Height="17" Margin="534,330,0,0" TextWrapping="Wrap" Text="----" VerticalAlignment="Top" Width="129" TextAlignment="Center" Foreground="Gray" FontSize="12" FontWeight="Bold"/>
+        <TextBlock x:Name="txtBlkYahtzee" HorizontalAlignment="Left" Height="17" Margin="534,352,0,0" TextWrapping="Wrap" Text="----" VerticalAlignment="Top" Width="129" TextAlignment="Center" Foreground="Gray" FontSize="12" FontWeight="Bold"/>
+        <TextBlock x:Name="txtBlkChance" HorizontalAlignment="Left" Height="19" Margin="534,372,0,0" TextWrapping="Wrap" Text="----" VerticalAlignment="Top" Width="129" TextAlignment="Center" Foreground="Gray" FontSize="12" FontWeight="Bold"/>
+        <TextBlock x:Name="txtBlkBonus" HorizontalAlignment="Left" Margin="534,395,0,0" TextWrapping="Wrap" Text="----" Width="129" TextAlignment="Center" Height="15" VerticalAlignment="Top" Foreground="Black" FontSize="12" FontWeight="Bold"/>
+        <TextBlock x:Name="txtBlkTotalLower" HorizontalAlignment="Left" Height="18" Margin="534,413,0,0" TextWrapping="Wrap" Text="----" VerticalAlignment="Top" Width="129" TextAlignment="Center" Foreground="Black" FontSize="12" FontWeight="Bold"/>
+        <TextBlock x:Name="txtBlkTotalUpper2" HorizontalAlignment="Left" Margin="534,438,0,0" TextWrapping="Wrap" Text="----" Width="129" TextAlignment="Center" Height="18" VerticalAlignment="Top" Foreground="Black" FontSize="12" FontWeight="Bold"/>
+        <TextBlock x:Name="txtBlkTotalGrand" HorizontalAlignment="Left" Margin="534,456,0,0" TextWrapping="Wrap" Text="----" Width="129" TextAlignment="Center" Height="17" VerticalAlignment="Top" Foreground="Black" FontSize="12" FontWeight="Bold"/>
+
+        <RadioButton x:Name="rdioAces" Content="" Height="16" Margin="403,59,26,0" VerticalAlignment="Top" IsEnabled="False" GroupName="grpCategory" Checked="rdioChecked" FlowDirection="RightToLeft"/>
+        <RadioButton x:Name="rdioTwos" Content="" Height="16" Margin="402,80,26,0" VerticalAlignment="Top" IsEnabled="False" GroupName="grpCategory" Checked="rdioChecked" FlowDirection="RightToLeft"/>
+        <RadioButton x:Name="rdioThrees" Content="" Height="16" Margin="406,101,26,0" VerticalAlignment="Top" IsEnabled="False" GroupName="grpCategory" Checked="rdioChecked" FlowDirection="RightToLeft"/>
+        <RadioButton x:Name="rdioFours" Content="" Height="16" Margin="406,122,26,0" VerticalAlignment="Top" IsEnabled="False" GroupName="grpCategory" Checked="rdioChecked" FlowDirection="RightToLeft"/>
+        <RadioButton x:Name="rdioFives" Content="" Height="19" Margin="401,143,26,0" VerticalAlignment="Top" IsEnabled="False" GroupName="grpCategory" Checked="rdioChecked" FlowDirection="RightToLeft"/>
+        <RadioButton x:Name="rdioSixes" Content="" Height="20" Margin="402,162,26,0" VerticalAlignment="Top" IsEnabled="False" GroupName="grpCategory" Checked="rdioChecked" FlowDirection="RightToLeft"/>
+        <RadioButton x:Name="rdioThreeOfAKind" Content="" Height="16" Margin="399,247,26,0" VerticalAlignment="Top" IsEnabled="False" GroupName="grpCategory" Checked="rdioChecked" FlowDirection="RightToLeft"/>
+        <RadioButton x:Name="rdioFourOfAKind" Content="" Height="16" Margin="401,268,26,0" VerticalAlignment="Top" IsEnabled="False" GroupName="grpCategory" Checked="rdioChecked" FlowDirection="RightToLeft"/>
+        <RadioButton x:Name="rdioFullHouse" Content="" Height="16" Margin="399,289,26,0" VerticalAlignment="Top" IsEnabled="False" GroupName="grpCategory" Checked="rdioChecked" FlowDirection="RightToLeft"/>
+        <RadioButton x:Name="rdioSmallStraight" Content="" Height="16" Margin="406,310,26,0" VerticalAlignment="Top" IsEnabled="False" GroupName="grpCategory" Checked="rdioChecked" FlowDirection="RightToLeft"/>
+        <RadioButton x:Name="rdioLargeStraight" Content="" Height="14" Margin="399,331,26,0" VerticalAlignment="Top" IsEnabled="False" GroupName="grpCategory" Checked="rdioChecked" FlowDirection="RightToLeft"/>
+        <RadioButton x:Name="rdioYahtzee" Content="" Height="14" Margin="401,353,26,0" VerticalAlignment="Top" IsEnabled="False" GroupName="grpCategory" Checked="rdioChecked" FlowDirection="RightToLeft"/>
+        <RadioButton x:Name="rdioChance" Content="" Height="19" Margin="399,376,26,0" VerticalAlignment="Top" IsEnabled="False" GroupName="grpCategory" Checked="rdioChecked" FlowDirection="RightToLeft"/>
+
+        <Rectangle x:Name="rectBlurrDice" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="70" Margin="19,271,0,0" VerticalAlignment="Top" Width="362" Opacity="0.5" RadiusX="10" RadiusY="10"  Visibility="Hidden">
+            <Rectangle.Stroke>
+                <SolidColorBrush Color="Black" Opacity="0"/>
+            </Rectangle.Stroke>
+        </Rectangle>
+    </Grid>
+</Window>

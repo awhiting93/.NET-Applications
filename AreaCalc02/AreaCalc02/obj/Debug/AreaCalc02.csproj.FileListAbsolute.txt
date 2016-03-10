@@ -1,0 +1,55 @@
+\\labfiles\studentfolders\3\121863\my documents\visual studio 2012\Projects\AreaCalc02\AreaCalc02\bin\Debug\AreaCalc02.exe.config
+\\labfiles\studentfolders\3\121863\my documents\visual studio 2012\Projects\AreaCalc02\AreaCalc02\bin\Debug\AreaCalc02.exe
+\\labfiles\studentfolders\3\121863\my documents\visual studio 2012\Projects\AreaCalc02\AreaCalc02\bin\Debug\AreaCalc02.pdb
+\\labfiles\studentfolders\3\121863\my documents\visual studio 2012\Projects\AreaCalc02\AreaCalc02\obj\Debug\AreaCalc02.csprojResolveAssemblyReference.cache
+\\labfiles\studentfolders\3\121863\my documents\visual studio 2012\Projects\AreaCalc02\AreaCalc02\obj\Debug\MainWindow.baml
+\\labfiles\studentfolders\3\121863\my documents\visual studio 2012\Projects\AreaCalc02\AreaCalc02\obj\Debug\MainWindow.g.cs
+\\labfiles\studentfolders\3\121863\my documents\visual studio 2012\Projects\AreaCalc02\AreaCalc02\obj\Debug\App.g.cs
+\\labfiles\studentfolders\3\121863\my documents\visual studio 2012\Projects\AreaCalc02\AreaCalc02\obj\Debug\AreaCalc02_MarkupCompile.cache
+\\labfiles\studentfolders\3\121863\my documents\visual studio 2012\Projects\AreaCalc02\AreaCalc02\obj\Debug\AreaCalc02.g.resources
+\\labfiles\studentfolders\3\121863\my documents\visual studio 2012\Projects\AreaCalc02\AreaCalc02\obj\Debug\AreaCalc02.Properties.Resources.resources
+\\labfiles\studentfolders\3\121863\my documents\visual studio 2012\Projects\AreaCalc02\AreaCalc02\obj\Debug\AreaCalc02.csproj.GenerateResource.Cache
+\\labfiles\studentfolders\3\121863\my documents\visual studio 2012\Projects\AreaCalc02\AreaCalc02\obj\Debug\AreaCalc02.exe
+\\labfiles\studentfolders\3\121863\my documents\visual studio 2012\Projects\AreaCalc02\AreaCalc02\obj\Debug\AreaCalc02.pdb
+C:\Users\awhiting18\Desktop\Programs\CS364 - .NET Programming\AreaCalc02\AreaCalc02\bin\Debug\AreaCalc02.exe.config
+C:\Users\awhiting18\Desktop\Programs\CS364 - .NET Programming\AreaCalc02\AreaCalc02\obj\Debug\AreaCalc02.exe
+C:\Users\awhiting18\Desktop\Programs\CS364 - .NET Programming\AreaCalc02\AreaCalc02\obj\Debug\AreaCalc02.pdb
+C:\Users\awhiting18\Desktop\Programs\CS364 - .NET Programming\AreaCalc02\AreaCalc02\obj\Debug\AreaCalc02.csprojResolveAssemblyReference.cache
+C:\Users\awhiting18\Desktop\Programs\CS364 - .NET Programming\AreaCalc02\AreaCalc02\obj\Debug\MainWindow.baml
+C:\Users\awhiting18\Desktop\Programs\CS364 - .NET Programming\AreaCalc02\AreaCalc02\obj\Debug\MainWindow.g.cs
+C:\Users\awhiting18\Desktop\Programs\CS364 - .NET Programming\AreaCalc02\AreaCalc02\obj\Debug\App.g.cs
+C:\Users\awhiting18\Desktop\Programs\CS364 - .NET Programming\AreaCalc02\AreaCalc02\obj\Debug\AreaCalc02_MarkupCompile.cache
+C:\Users\awhiting18\Desktop\Programs\CS364 - .NET Programming\AreaCalc02\AreaCalc02\obj\Debug\AreaCalc02.g.resources
+C:\Users\awhiting18\Desktop\Programs\CS364 - .NET Programming\AreaCalc02\AreaCalc02\obj\Debug\AreaCalc02.Properties.Resources.resources
+C:\Users\awhiting18\Desktop\Programs\CS364 - .NET Programming\AreaCalc02\AreaCalc02\obj\Debug\AreaCalc02.csproj.GenerateResource.Cache
+C:\Users\awhiting18\Desktop\Programs\CS364 - .NET Programming\AreaCalc02\AreaCalc02\bin\Debug\AreaCalc02.exe
+C:\Users\awhiting18\Desktop\Programs\CS364 - .NET Programming\AreaCalc02\AreaCalc02\bin\Debug\AreaCalc02.pdb
+\\LabFiles\StudentFolders\3\121863\My Documents\AreaCalc02\AreaCalc02\bin\Debug\AreaCalc02.exe.config
+\\LabFiles\StudentFolders\3\121863\My Documents\AreaCalc02\AreaCalc02\obj\Debug\AreaCalc02.exe
+\\LabFiles\StudentFolders\3\121863\My Documents\AreaCalc02\AreaCalc02\obj\Debug\AreaCalc02.pdb
+\\LabFiles\StudentFolders\3\121863\My Documents\CS364 - .NET Programming\AreaCalc02\AreaCalc02\bin\Debug\AreaCalc02.exe.config
+\\LabFiles\StudentFolders\3\121863\My Documents\CS364 - .NET Programming\AreaCalc02\AreaCalc02\obj\Debug\AreaCalc02.exe
+\\LabFiles\StudentFolders\3\121863\My Documents\CS364 - .NET Programming\AreaCalc02\AreaCalc02\obj\Debug\AreaCalc02.pdb
+\\LabFiles\StudentFolders\3\121863\My Documents\CS364 - .NET Programming\AreaCalc02\AreaCalc02\obj\Debug\AreaCalc02.csprojResolveAssemblyReference.cache
+\\LabFiles\StudentFolders\3\121863\My Documents\CS364 - .NET Programming\AreaCalc02\AreaCalc02\obj\Debug\MainWindow.baml
+\\LabFiles\StudentFolders\3\121863\My Documents\CS364 - .NET Programming\AreaCalc02\AreaCalc02\obj\Debug\MainWindow.g.cs
+\\LabFiles\StudentFolders\3\121863\My Documents\CS364 - .NET Programming\AreaCalc02\AreaCalc02\obj\Debug\App.g.cs
+\\LabFiles\StudentFolders\3\121863\My Documents\CS364 - .NET Programming\AreaCalc02\AreaCalc02\obj\Debug\AreaCalc02_MarkupCompile.cache
+\\LabFiles\StudentFolders\3\121863\My Documents\CS364 - .NET Programming\AreaCalc02\AreaCalc02\obj\Debug\AreaCalc02.g.resources
+\\LabFiles\StudentFolders\3\121863\My Documents\CS364 - .NET Programming\AreaCalc02\AreaCalc02\obj\Debug\AreaCalc02.Properties.Resources.resources
+\\LabFiles\StudentFolders\3\121863\My Documents\CS364 - .NET Programming\AreaCalc02\AreaCalc02\obj\Debug\AreaCalc02.csproj.GenerateResource.Cache
+\\LabFiles\StudentFolders\3\121863\My Documents\CS364 - .NET Programming\AreaCalc02\AreaCalc02\bin\Debug\AreaCalc02.exe
+\\LabFiles\StudentFolders\3\121863\My Documents\CS364 - .NET Programming\AreaCalc02\AreaCalc02\bin\Debug\AreaCalc02.pdb
+C:\Users\awhiting18\Documents\CS364 - .NET Programming\AreaCalc02\AreaCalc02\bin\Debug\AreaCalc02.exe.config
+C:\Users\awhiting18\Documents\CS364 - .NET Programming\AreaCalc02\AreaCalc02\obj\Debug\AreaCalc02.exe
+C:\Users\awhiting18\Documents\CS364 - .NET Programming\AreaCalc02\AreaCalc02\obj\Debug\AreaCalc02.pdb
+C:\Users\awhiting18\Documents\CS364 - .NET Programming\AreaCalc02\AreaCalc02\bin\Debug\AreaCalc02.exe
+C:\Users\awhiting18\Documents\CS364 - .NET Programming\AreaCalc02\AreaCalc02\bin\Debug\AreaCalc02.pdb
+C:\Users\awhiting18\Documents\CS364 - .NET Programming\AreaCalc02\AreaCalc02\obj\Debug\AreaCalc02.csprojResolveAssemblyReference.cache
+C:\Users\awhiting18\Documents\CS364 - .NET Programming\AreaCalc02\AreaCalc02\obj\Debug\MainWindow.baml
+C:\Users\awhiting18\Documents\CS364 - .NET Programming\AreaCalc02\AreaCalc02\obj\Debug\MainWindow.g.cs
+C:\Users\awhiting18\Documents\CS364 - .NET Programming\AreaCalc02\AreaCalc02\obj\Debug\App.g.cs
+C:\Users\awhiting18\Documents\CS364 - .NET Programming\AreaCalc02\AreaCalc02\obj\Debug\AreaCalc02_MarkupCompile.cache
+C:\Users\awhiting18\Documents\CS364 - .NET Programming\AreaCalc02\AreaCalc02\obj\Debug\AreaCalc02.g.resources
+C:\Users\awhiting18\Documents\CS364 - .NET Programming\AreaCalc02\AreaCalc02\obj\Debug\AreaCalc02.Properties.Resources.resources
+C:\Users\awhiting18\Documents\CS364 - .NET Programming\AreaCalc02\AreaCalc02\obj\Debug\AreaCalc02.csproj.GenerateResource.Cache

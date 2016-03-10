@@ -1,0 +1,29 @@
+\\csmain\Classes\CS_364\SwanWhiting\Yahtzee\Yahtzee\bin\Debug\Yahtzee.exe.config
+\\csmain\Classes\CS_364\SwanWhiting\Yahtzee\Yahtzee\obj\Debug\Yahtzee.csprojResolveAssemblyReference.cache
+\\csmain\Classes\CS_364\SwanWhiting\Yahtzee\Yahtzee\obj\Debug\MainWindow.baml
+\\csmain\Classes\CS_364\SwanWhiting\Yahtzee\Yahtzee\obj\Debug\MainWindow.g.cs
+\\csmain\Classes\CS_364\SwanWhiting\Yahtzee\Yahtzee\obj\Debug\App.g.cs
+\\csmain\Classes\CS_364\SwanWhiting\Yahtzee\Yahtzee\obj\Debug\Yahtzee_MarkupCompile.cache
+\\csmain\Classes\CS_364\SwanWhiting\Yahtzee\Yahtzee\obj\Debug\Yahtzee.g.resources
+\\csmain\Classes\CS_364\SwanWhiting\Yahtzee\Yahtzee\obj\Debug\Yahtzee.Properties.Resources.resources
+\\csmain\Classes\CS_364\SwanWhiting\Yahtzee\Yahtzee\obj\Debug\Yahtzee.csproj.GenerateResource.Cache
+\\csmain\Classes\CS_364\SwanWhiting\Yahtzee\Yahtzee\bin\Debug\Yahtzee.exe
+\\csmain\Classes\CS_364\SwanWhiting\Yahtzee\Yahtzee\bin\Debug\Yahtzee.pdb
+\\csmain\Classes\CS_364\SwanWhiting\Yahtzee\Yahtzee\obj\Debug\Yahtzee.exe
+\\csmain\Classes\CS_364\SwanWhiting\Yahtzee\Yahtzee\obj\Debug\Yahtzee.pdb
+C:\Users\awhiting18\Downloads\Yahtzee\Yahtzee\Yahtzee\bin\Debug\Yahtzee.exe.config
+C:\Users\awhiting18\Downloads\Yahtzee\Yahtzee\Yahtzee\obj\Debug\Yahtzee.exe
+C:\Users\awhiting18\Downloads\Yahtzee\Yahtzee\Yahtzee\obj\Debug\Yahtzee.pdb
+C:\Users\awhiting18\Documents\CS364 - .NET Programming\Yahtzee\Yahtzee\bin\Debug\Yahtzee.exe.config
+C:\Users\awhiting18\Documents\CS364 - .NET Programming\Yahtzee\Yahtzee\obj\Debug\Yahtzee.exe
+C:\Users\awhiting18\Documents\CS364 - .NET Programming\Yahtzee\Yahtzee\obj\Debug\Yahtzee.pdb
+C:\Users\awhiting18\Documents\CS364 - .NET Programming\Yahtzee\Yahtzee\bin\Debug\Yahtzee.exe
+C:\Users\awhiting18\Documents\CS364 - .NET Programming\Yahtzee\Yahtzee\bin\Debug\Yahtzee.pdb
+C:\Users\awhiting18\Documents\CS364 - .NET Programming\Yahtzee\Yahtzee\obj\Debug\Yahtzee.csprojResolveAssemblyReference.cache
+C:\Users\awhiting18\Documents\CS364 - .NET Programming\Yahtzee\Yahtzee\obj\Debug\MainWindow.baml
+C:\Users\awhiting18\Documents\CS364 - .NET Programming\Yahtzee\Yahtzee\obj\Debug\MainWindow.g.cs
+C:\Users\awhiting18\Documents\CS364 - .NET Programming\Yahtzee\Yahtzee\obj\Debug\App.g.cs
+C:\Users\awhiting18\Documents\CS364 - .NET Programming\Yahtzee\Yahtzee\obj\Debug\Yahtzee_MarkupCompile.cache
+C:\Users\awhiting18\Documents\CS364 - .NET Programming\Yahtzee\Yahtzee\obj\Debug\Yahtzee.g.resources
+C:\Users\awhiting18\Documents\CS364 - .NET Programming\Yahtzee\Yahtzee\obj\Debug\Yahtzee.Properties.Resources.resources
+C:\Users\awhiting18\Documents\CS364 - .NET Programming\Yahtzee\Yahtzee\obj\Debug\Yahtzee.csproj.GenerateResource.Cache
